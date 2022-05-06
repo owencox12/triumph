@@ -1,0 +1,24 @@
+.contacts {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 77px;
+    }
+    &__title {
+        padding-top: 129px;
+    }
+    &__item {
+        &_text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+            width: 586px;
+        }
+        &_map {
+            width: 719px;
+        }
+    }
+}

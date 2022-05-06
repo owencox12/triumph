@@ -1,0 +1,38 @@
+.partners {
+    background: #181715;
+    position: relative;
+    padding-top: 168px;
+    &__left {
+        position: absolute;
+        left: 1%;
+        top: 128px;
+    }
+    &__right {
+        position: absolute;
+        right: 1%;
+        top: 128px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        &_second {
+            display: flex;
+            justify-content: center;
+            margin-top: 98px;
+        }
+    }
+    &__item {
+        &_image {
+            margin: 0 62px;
+        }
+        &_partner {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 37px;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.benefits {
+    background: url(../../image/benefitsBG.png) center center / cover no-repeat; 
+    min-height: 617px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    &__title {
+        padding-top: 80px;
+    }
+    &__item {
+        &:nth-child(1) {
+            margin-top: 100px;
+        }
+        &:nth-child(3) {
+            margin-top: 100px;
+        }
+        &_block {
+            background: rgba(24, 23, 21, 0.6);
+            border-radius: 25px;
+            width: 292px;
+            height: 233px;
+            padding-top: 20px;
+        }
+        &_image {
+            text-align: center;
+        }
+        &_title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 34px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 17px;
+        }
+    }
+}

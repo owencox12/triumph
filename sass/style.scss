@@ -1,0 +1,21 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+body.lock {
+    overflow: hidden
+}
+
+
+@import 'blocks/main';
+@import 'blocks/button';
+@import 'blocks/about';
+@import 'blocks/title';
+@import 'blocks/partners';
+@import 'blocks/catalog';
+@import 'blocks/gallery';
+@import 'blocks/application';
+@import 'blocks/benefits';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/media';
