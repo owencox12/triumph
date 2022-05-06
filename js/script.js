@@ -29,3 +29,21 @@ gotoUp.addEventListener("click", function(){
         behavior: "smooth"
     })
 })
+
+
+let menu = document.querySelector(".main__header_menu_list")
+
+
+menu.addEventListener("click", function(e){
+    let link = e.target
+    if(link.dataset.id) {
+        e.preventDefault();
+        let target = document.querySelector(link.hash)
+        let pos = target.offsetTop-100
+        console.log(pos)
+        window.scrollTo({
+            top: pos,
+            behavior: "smooth"
+        })
+    }
+})
